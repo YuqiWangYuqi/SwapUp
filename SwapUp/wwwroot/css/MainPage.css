@@ -59,10 +59,15 @@ form.example::after {
         top: 5px;
         right: 10px;
     }
-ul {
 
-    list-style-type:none;
+
+.category {
     position:fixed;
-    top:10px;
-    left:10px;
+    border-color:black;
+    top:50px;
+    left: 10px;
+    padding-top: 60px;
+    padding-left:10px;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
 }
