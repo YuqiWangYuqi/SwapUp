@@ -54,20 +54,20 @@ form.example::after {
         background-color: #5cbf2a;
     }
 
-    .myButton {
-        position: fixed;
-        top: 5px;
-        right: 10px;
-    }
+.myButton {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+}
 
 
 .category {
-    position:fixed;
-    border-color:black;
-    top:50px;
+    position: fixed;
+    border-color: black;
+    top: 50px;
     left: 10px;
     padding-top: 60px;
-    padding-left:10px;
-    font-family :Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12px;
 }
