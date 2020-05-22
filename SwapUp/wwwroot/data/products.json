@@ -5,6 +5,7 @@
     "img": "https://secure.img1-fg.wfcdn.com/im/03116595/resize-h800-w800%5Ecompr-r85/7881/78812972/Ibiza+Microfiber+80.3%2522+Flared+Arm+Sofa.jpg",
     "Url": "https://www.wayfair.com/furniture/pdx/zipcode-design-ibiza-microfiber-803-flared-arm-sofa-zipc7699.html",
     "Title": "flared arm sofa",
+    "Href" : "ItemDetailPage",
     "Description": "This project is a good learning project to get comfortable with soldering and programming an Arduino.",
     "Ratings": [
       5,
@@ -17,6 +18,8 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7NzrotpvDeP2tez79xgqjn4XCtJ6G4qOxtSjsoCE5vd__VD4V&usqp=CAU",
     "Url": "https://www.hackster.io/agent-hawking-1/book-light-dee7e4",
     "Title": "single sofa",
+    "Href": "ItemDetailPage",
+
     "Description": "Use craft items you have around the house, plus two LEDs and a LilyPad battery holder, to create a useful book light for reading in the dark.",
     "Ratings": null
   },
@@ -26,6 +29,8 @@
     "img": "https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0735973_PE740307_S5.JPG?f=xxxl",
     "Url": "https://www.hackster.io/agent-hawking-1/bling-your-laptop-with-an-internet-connected-light-show-30e4db",
     "Title": "brown-black-desk",
+    "Href": "ItemDetailPage",
+
     "Description": "Create a web-connected light-strip API controllable from your website, using the Particle.io.",
     "Ratings": null
   },
@@ -35,6 +40,8 @@
     "img": "https://cdn.vox-cdn.com/thumbor/vobIttnPCGM2hXPhb20zVl6Gf-8=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9065921/Xbox_One_X_Screenshot_05.jpg",
     "Url": "https://www.hackster.io/agent-hawking-1/create-a-compact-survival-kit-38bfdb",
     "Title": "Xbox-One",
+    "Href": "ItemDetailPage",
+
     "Description": "Use an Altoids tin with Chibitronics sticker LEDs to create a light-up compact that doubles as a survival kit for the young hipster",
     "Ratings": null
   },
@@ -44,6 +51,8 @@
     "img": "https://images-na.ssl-images-amazon.com/images/I/41ZrDUwYqyL._SX377_BO1,204,203,200_.jpg",
     "Url": "https://twitter.com/sailorhg/status/1090107740049952770",
     "Title": "Principles of Microeconomics",
+    "Href": "ItemDetailPage",
+
     "Description": "Visualization of sailor scouts sorted by bubblesort algorithm by their planet's distance from the sun",
     "Ratings": null
   },
@@ -53,6 +62,8 @@
     "img": "https://www.racketboy.com/images/segacd-rv-photo-02-featured.jpg",
     "Url": "https://twitter.com/sailorhg/status/1090113666911891456",
     "Title": "Flying Squadron Game CD",
+    "Href": "ItemDetailPage",
+
     "Description": "Light-up corsage I made with my summer intern.",
     "Ratings": null
   },
@@ -62,6 +73,8 @@
     "img": "https://images-na.ssl-images-amazon.com/images/I/41U4T1TLkuL._SX258_BO1,204,203,200_.jpg",
     "Url": "https://twitter.com/sailorhg/status/1090122822007963648",
     "Title": "C++ Primer Plus Book",
+    "Href": "ItemDetailPage",
+
     "Description": "Pastel hardware kits complete with custom manufactured pastel alligator clips.",
     "Ratings": null
   },
@@ -71,6 +84,8 @@
     "img": "https://www.guru99.com/images/uploads/2012/06/head-first-java-original_v1.jpg",
     "Url": "https://twitter.com/sailorhg/status/1090117277540745216",
     "Title": "Head First Java Book",
+    "Href": "ItemDetailPage",
+
     "Description": "custom molded heart shaped LED with sprinkles.",
     "Ratings": null
   },
@@ -80,6 +95,8 @@
     "img": "https://images.crateandbarrel.com/is/image/Crate/PetrieSofaJnsFeltGreySHF16_1x1/?$web_zoom$&190411135335&wid=450&hei=450",
     "Url": "https://www.instagram.com/p/BNvESj-j8PI/",
     "Title": "Grey Sofa",
+    "Href": "ItemDetailPage",
+
     "Description": "Black sweatshirt hoody with the Sick of the Internet logo.",
     "Ratings": null
   },
@@ -89,6 +106,8 @@
     "img": "https://images-na.ssl-images-amazon.com/images/I/71PGvPXpk5L._AC_SL1500_.jpg",
     "Url": "https://www.instagram.com/p/BNm6hZzDoEF/",
     "Title": "PS4",
+    "Href": "ItemDetailPage",
+
     "Description": "Still some time to enter the pin/sticker giveaway! ",
     "Ratings": null
   },
@@ -98,6 +117,8 @@
     "img": "https://images.homedepot-static.com/productImages/dc258219-5bcc-4acb-bfb1-eafd60d6292c/svn/black-lasko-pedestal-fans-1823-64_1000.jpg",
     "Url": "https://www.vogueandcode.com/shop/hipster-dev-bro",
     "Title": "Floor Fan",
+    "Href": "ItemDetailPage",
+
     "Description": "Hipster Dev is busy coding away while styled in a camo jacket and orange beanie.",
     "Ratings": null
   },
@@ -107,6 +128,8 @@
     "img": "https://img.letgo.com/images/7b/55/08/c5/7b5508c5f32120ef44ac1211c4e7f34e.jpeg?impolicy=img_600",
     "Url": "https://www.vogueandcode.com/shop/pretty-girls-code-tee",
     "Title": "Yamaha-P45",
+    "Href": "ItemDetailPage",
+
     "Description": "Everyone?s favorite design is finally here on a tee! The Pretty Girls Code crew-neck tee is available in a soft pink with red writing.",
     "Ratings": null
   },
@@ -116,6 +139,8 @@
     "img": "https://images-na.ssl-images-amazon.com/images/I/51Czy%2BpH9uL._AC_SX522_.jpg",
     "Url": "https://www.vogueandcode.com/shop/ruby-sis-2",
     "Title": "Lazy Sofa Single Sofa",
+    "Href": "ItemDetailPage",
+
     "Description": "Styled in a dashiki, Ruby Sis is listening to music while coding in her favorite language, Ruby!",
     "Ratings": null
   },
@@ -125,6 +150,8 @@
     "img": "https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&imageId=100388800-847__1&recipeName=350",
     "Url": "https://www.instagram.com/p/BFktVYPinKQ/",
     "Title": "Gaming Chair",
+    "Href": "ItemDetailPage",
+
     "Description": "Not sure if I'll be making more, get it while I have it in the store.",
     "Ratings": null
   },
@@ -134,6 +161,8 @@
     "img": "https://media.gamestop.com/i/gamestop/10159650/Call-of-Duty-Black-Ops-4",
     "Url": "https://www.instagram.com/p/BEXlpiZCnJ3",
     "Title": "Call Duty Game CD",
+    "Href": "ItemDetailPage",
+
     "Description": "Used up the Diskette fabric today to make 2 of these crops.",
     "Ratings": null
   },
@@ -143,6 +172,8 @@
     "img": "https://p1.ssl.qhimg.com/t01509898ce979105f2.jpg",
     "Url": "https://www.instagram.com/BEXlpiZCnJ3",
     "Title": "Queen size mattress",
+    "Href": "ItemDetailPage",
+
     "Description": "Used up the Diskette fabric today to make 2 of these crops.",
     "Ratings": null
   }
