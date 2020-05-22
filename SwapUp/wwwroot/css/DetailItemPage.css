@@ -6,3 +6,11 @@
     background-position-y: center;
     background-size: 80%, 50%;
 }
+
+
+.EmailButton {
+    width: 180px;
+    height: 40px;
+    margin-left: 80%;
+    margin-top: 25%;
+}
