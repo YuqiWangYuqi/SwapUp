@@ -76,3 +76,8 @@ form button:active {
     border-top: 5px solid #bbb;
     margin-top: 280px;
 }
+
+.item-description {
+    margin-left: 250px;
+    width: 500px;
+}
