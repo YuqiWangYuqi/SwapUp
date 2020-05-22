@@ -12,15 +12,16 @@
     width: 180px;
     height: 40px;
     margin-left: 80%;
-    margin-top: 25%;
 }
 
+.Arrows {
+    margin-top: 25%;
+}
 
 .LeftArrow {
     width: 5%;
     height: 5%;
     margin-left: -2%;
-    // margin-top: 25%;
 }
 
 .RightArrow {
@@ -28,5 +29,4 @@
     width: 5%;
     height: 5%;
     margin-left: 26%;
-    // margin-top: 25%;
 }
