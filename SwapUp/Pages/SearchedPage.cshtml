@@ -18,18 +18,35 @@
 
 <a href="UploadPage" class="myButton">Upload items</a>
 <div class="card-columns">
-    @foreach (var product in Model.Products)
-    {
-        <div class="card">
-            <a href=@product.Href>
-                <div class="card-img" style="background-image: url('@product.Image');"></div>
-                <div class="card-body">
-                    <h5 class="card-title">@product.Title</h5>
-                </div>
-            </a>
 
-        </div>
-    }
+    <div class="card">
+        <a href="ItemDetailPage">
+            <div class="card-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/I/41U4T1TLkuL._SX258_BO1,204,203,200_.jpg');"></div>
+            <div class="card-body">
+                <h5 class="card-title">C++ Primer Plus Book</h5>
+            </div>
+        </a>
+
+    </div>
+    <div class="card">
+        <a href="ItemDetailPage">
+            <div class="card-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/I/41ZrDUwYqyL._SX377_BO1,204,203,200_.jpg');"></div>
+            <div class="card-body">
+                <h5 class="card-title">Principles of Microeconomics</h5>
+            </div>
+        </a>
+
+    </div>
+    <div class="card">
+        <a href="ItemDetailPage">
+            <div class="card-img" style="background-image: url('https://www.guru99.com/images/uploads/2012/06/head-first-java-original_v1.jpg');"></div>
+            <div class="card-body">
+                <h5 class="card-title">Head First Java Book</h5>
+            </div>
+        </a>
+
+    </div>
+
 
 </div>
 
