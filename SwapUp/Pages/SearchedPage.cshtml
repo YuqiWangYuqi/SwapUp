@@ -1,8 +1,69 @@
 ﻿@page
-@model SwapUp.Pages.SearchedPageModel
+@model IndexModel
+
+
 @{
-    ViewData["Title"] = "SearchedPage";
+    ViewData["Title"] = "Searched Page";
 }
 
-<h1>SearchedPage</h1>
+<link rel="stylesheet" href="~/css/MainPage.css" />
+<!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div>
+    <h3 style="text-align:center">3 Items Found!</h3>
+</div>
+<!-- The form -->
+<form class="example" action="SearchedPage">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<a href="UploadPage" class="myButton">Upload items</a>
+
+<div class="card-columns">
+
+    <div class="card">
+        <a href="ItemDetailPage">
+            <div class="card-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/I/41U4T1TLkuL._SX258_BO1,204,203,200_.jpg');"></div>
+            <div class="card-body">
+                <h5 class="card-title">C++ Primer Plus Book</h5>
+            </div>
+        </a>
+
+    </div>
+    <div class="card">
+        <a href="ItemDetailPage">
+            <div class="card-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/I/41ZrDUwYqyL._SX377_BO1,204,203,200_.jpg');"></div>
+            <div class="card-body">
+                <h5 class="card-title">Principles of Microeconomics</h5>
+            </div>
+        </a>
+
+    </div>
+    <div class="card">
+        <a href="ItemDetailPage">
+            <div class="card-img" style="background-image: url('https://www.guru99.com/images/uploads/2012/06/head-first-java-original_v1.jpg');"></div>
+            <div class="card-body">
+                <h5 class="card-title">Head First Java Book</h5>
+            </div>
+        </a>
+
+    </div>
+
+
+</div>
+
+
+<ul class="category">
+      
+    <li><a class="active" href="MainPage">Categories</a></li>
+      
+    <li><a href="#Furnitures">Furnitures</a></li>
+    <li><a href="#Electronics">Electronics</a></li>
+    <li><a href="#Books">Books</a></li>
+    <li><a href="#Games">Games</a></li>
+</ul>
+
+
 

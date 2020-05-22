@@ -11,7 +11,6 @@ namespace SwapUp.Pages
     {
         public void OnGet()
         {
-
         }
     }
 }
