@@ -2,6 +2,12 @@
     color: orange;
 }
 
+.SigninButton {
+    width: 90px;
+    height: 40px;
+    margin-left: 55%;
+    margin-top: 25%;
+}
 .fa-star {
     cursor: pointer;
 }
