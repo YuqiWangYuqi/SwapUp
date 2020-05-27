@@ -2,6 +2,12 @@
     color: orange;
 }
 
+.SigninButton {
+    width: 90px;
+    height: 40px;
+    margin-left: 55%;
+    margin-top: 25%;
+}
 .fa-star {
     cursor: pointer;
 }
@@ -174,4 +180,13 @@ ul {
     position: fixed;
     top: 5px;
     right: 10px;
+}
+
+.signinPage body {
+    background-image: url('../data/Image/SignIn.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 80%, 50%;
 }
