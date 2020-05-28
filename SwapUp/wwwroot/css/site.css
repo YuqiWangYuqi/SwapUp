@@ -224,6 +224,26 @@ ul {
     right: 80px;
 }
 
+.Pbutton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+
 .DetailItemPage {
     background-image: url('../data/Image/ItemDetail.PNG');
     background-repeat: no-repeat;
@@ -291,3 +311,4 @@ form.example::after {
     clear: both;
     display: table;
 }
+
