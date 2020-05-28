@@ -214,3 +214,38 @@ ul {
     top: 6px;
     right: 10px;
 }
+
+.DetailItemPage {
+    background-image: url('../data/Image/ItemDetail.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 80%, 50%;
+}
+
+
+.EmailButton {
+    width: 180px;
+    height: 40px;
+    margin-left: 80%;
+}
+
+.Arrows {
+    margin-top: 25%;
+}
+
+.LeftArrow {
+    width: 5%;
+    height: 5%;
+    margin-left: -2%;
+    cursor: pointer;
+}
+
+.RightArrow {
+    transform: rotate(180deg);
+    width: 5%;
+    height: 5%;
+    margin-left: 26%;
+    cursor: pointer;
+}
