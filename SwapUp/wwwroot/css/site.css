@@ -182,7 +182,7 @@ ul {
     right: 10px;
 }
 
-.signinPage body {
+.SignInPage {
     background-image: url('../data/Image/SignIn.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
