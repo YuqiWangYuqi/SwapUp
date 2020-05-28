@@ -224,34 +224,24 @@ ul {
     right: 80px;
 }
 
-.Pbutton {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 50%;
+
+.Pbutton{
+    position:fixed;
+    top: 7px;
+    right:5px;
+
 }
 
 
 
-
-.DetailItemPage {
-    background-image: url('../data/Image/ItemDetail.PNG');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: 80%, 50%;
-}
+    .DetailItemPage {
+        background-image: url('../data/Image/ItemDetail.PNG');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 80%, 50%;
+    }
 
 
 .EmailButton {
