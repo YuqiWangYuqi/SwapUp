@@ -191,6 +191,15 @@ ul {
     background-size: 80%, 50%;
 }
 
+.category {
+    position: fixed;
+    border-color: black;
+    top: 50px;
+    left: 10px;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
 .myButton {
     background-color: #44c767;
     border-radius: 28px;
