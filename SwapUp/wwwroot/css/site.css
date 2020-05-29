@@ -326,4 +326,11 @@ form.example::after {
     padding: 20px;
 }
 
+/* Main column */
+.main {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
 
