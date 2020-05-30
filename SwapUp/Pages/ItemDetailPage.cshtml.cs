@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace SwapUp.Pages
 {
+    /* empty class defination */
     public class ItemDetailPageModel : PageModel
     {
+        // empty getter 
         public void OnGet()
         {
 
