@@ -10,21 +10,16 @@ using SwapUp.Model;
 
 namespace SwapUp.Pages
 {
+    /* page model class for  */
     public class IndexModel : PageModel
     {
+        // local veriable to deternmain login in status
         private readonly ILogger<IndexModel> _logger;
+
+        // init json file object
         public JsonFileProductService ProductService;
+
+        // support return a collection of the product object
         public IEnumerable<Product> Products { get; private set; }
-
-        public IndexModel(ILogger<IndexModel> logger, JsonFileProductService productService)
-        {
-            _logger = logger;
-            ProductService = productService;
-        }
-
-        public void OnGet()
-        {
-            Products = ProductService.GetProducts();
-        }
     }
 }
