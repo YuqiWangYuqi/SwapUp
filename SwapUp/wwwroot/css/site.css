@@ -334,19 +334,19 @@ ul {
 .EmailButton {
     width: 180px;
     height: 40px;
-    margin-left: 80%;
+    margin-left: 88%;
 }
 
 /* image button style */
-.Arrows {
-    margin-top: 25%;
+.DetailItemPage .Arrows {
+    margin-top: 35%;
 }
 
 /* image left button style */
 .LeftArrow {
     width: 5%;
     height: 5%;
-    margin-left: -2%;
+    margin-left: -15%;
     cursor: pointer;
 }
 
@@ -355,7 +355,7 @@ ul {
     transform: rotate(180deg);
     width: 5%;
     height: 5%;
-    margin-left: 26%;
+    margin-left: 38%;
     cursor: pointer;
 }
 
