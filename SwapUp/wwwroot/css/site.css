@@ -232,16 +232,18 @@ ul {
 
 }
 
+.SigninPageBody {
 
+}
 
-    .DetailItemPage {
-        background-image: url('../data/Image/ItemDetail.PNG');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position-x: center;
-        background-position-y: center;
-        background-size: 80%, 50%;
-    }
+.DetailItemPage {
+    background-image: url('../data/Image/ItemDetail.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 80%, 50%;
+}
 
 
 .EmailButton {
