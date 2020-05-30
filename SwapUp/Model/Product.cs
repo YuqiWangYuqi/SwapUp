@@ -22,5 +22,9 @@ namespace SwapUp.Model
         public string Href { get; set; }
         //Item title
         public string Title { get; set; }
+
+        public int[] Ratings { get; set; }
+
+        public override string ToString() => JsonSerializer.Serialize<Product>(this);
     }
 }
