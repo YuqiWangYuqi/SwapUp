@@ -241,6 +241,11 @@ ul {
 }
 
 
+.item-description {
+    margin-left: 300px;
+    width: 500px;
+}
+
 .button {
     position: fixed;
     top: 5px;
