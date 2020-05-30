@@ -7,20 +7,25 @@ using SwapUp.Model;
 
 namespace SwapUp.Services
 {
+    /*
+     * JsonFileProductService class
+     * This class modifify jsonFile to be avaliable to use on calls
+     */
    public class JsonFileProductService
     {
+        //constructor
         public JsonFileProductService(IWebHostEnvironment webHostEnvironment)
         {
             WebHostEnvironment = webHostEnvironment;
         }
-
+        //getter for webhostenviorment
         public IWebHostEnvironment WebHostEnvironment { get; }
-
+        //jsonfile access
         private string JsonFileName
         {
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "products.json"); }
         }
-
+        //get method for products
         public IEnumerable<Product> GetProducts()
         {
             using(var jsonFileReader = File.OpenText(JsonFileName))
@@ -32,7 +37,7 @@ namespace SwapUp.Services
                     });
             }
         }
-
+        //unique methods for addRating
         public void AddRating(string productId, int rating)
         {
             var products = GetProducts();
