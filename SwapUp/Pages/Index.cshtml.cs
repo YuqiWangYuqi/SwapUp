@@ -10,13 +10,29 @@ using SwapUp.Model;
 
 namespace SwapUp.Pages
 {
-    /* page model class for items */
+    /* using model definition*/
     public class IndexModel : PageModel
     {
-        // init json file object
+        // private logger 
+        private readonly ILogger<IndexModel> _logger;
+
+        // init json file service
         public JsonFileProductService ProductService;
 
-        // support return a collection of the product object
+        // products getter and private setter
         public IEnumerable<Product> Products { get; private set; }
+
+        // public constructor
+        public IndexModel(ILogger<IndexModel> logger, JsonFileProductService productService)
+        {
+            _logger = logger;
+            ProductService = productService;
+        }
+
+        // public getter to deliever prodcut info
+        public void OnGet()
+        {
+            Products = ProductService.GetProducts();
+        }
     }
 }
