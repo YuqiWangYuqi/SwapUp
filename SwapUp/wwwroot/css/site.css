@@ -1,37 +1,33 @@
-﻿.checked
-{
+﻿.checked {
     color: orange;
 }
 
-.SigninButton
-{
+/* signin page sign in button style*/
+.SigninButton {
     width: 90px;
     height: 40px;
     margin-left: 55%;
     margin-top: 25%;
 }
-.fa-star
-{
+
+.fa-star {
     cursor: pointer;
 }
 
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-.card-columns .card:hover .card-img
-{
+.card-columns .card:hover .card-img {
     opacity: 1;
     -webkit-transform-style: preserve-3d;
 }
 
-.card-columns .card-body
-{
+.card-columns .card-body {
     height: 200px;
     font-family: 'Nunito', sans-serif;
     background: #fbfafd;
 }
 
-.card-columns .card-img
-{
+.card-columns .card-img {
     height: 200px;
     vertical-align: bottom;
     background-position: center; /* Center the image */
@@ -40,8 +36,7 @@ for details on configuring this project to bundle and minify static web assets. 
     opacity: .8;
 }
 
-.modal .card-img
-{
+.modal .card-img {
     height: 200px;
     vertical-align: bottom;
     background-position: center; /* Center the image */
@@ -49,58 +44,50 @@ for details on configuring this project to bundle and minify static web assets. 
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.card-columns .card:hover
-{
+.card-columns .card:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(37,33,82,.12), 0 4px 8px rgba(37,33,82,.06);
 }
 
-.card-footer
-{
+.card-footer {
     background: #fbfafd;
 }
 
 
-.navbar-brand
-{
- white-space: normal;
+.navbar-brand {
+    white-space: normal;
     font-family: 'Yellowtail', cursive;
     font-size: xx-large;
     text-align: center;
     word-break: break-all;
 }
-.navbar-logo
-{
+
+.navbar-logo {
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-   
 }
 
 /* Provide sufficient contrast against white background */
-a
-{
+a {
     color: #0366d6;
 }
 
-.btn-primary
-{
+.btn-primary {
     color: #fff;
     background-color: #252152;
     border-color: #252152;
 }
 
-.btn-primary:hover
-{
+    .btn-primary:hover {
         color: #fff;
         background-color: #e9a8a6;
         border-color: #e9a8a6;
-}
+    }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link
-{
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
@@ -108,70 +95,58 @@ a
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html
-{
+html {
     font-size: 14px;
 }
 
-@media (min-width: 768px)
-{
-    html
-    {
+@media (min-width: 768px) {
+    html {
         font-size: 16px;
     }
 }
 
-.border-top
-{
+.border-top {
     border-top: 1px solid #e5e5e5;
 }
 
-.border-bottom
-{
+.border-bottom {
     border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow
-{
+.box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy
-{
+button.accept-policy {
     font-size: 1rem;
     line-height: inherit;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html
-{
+html {
     position: relative;
     min-height: 100%;
 }
-body
-{
+
+body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
 
-p
-{
+p {
     font-family: 'Nunito', sans-serif;
 }
 
-h1
-{
+h1 {
     font-family: 'Nunito', sans-serif;
 }
 
-ul
-{
+ul {
     font-family: 'Nunito', sans-serif;
 }
 
-.footer
-{
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -179,27 +154,23 @@ ul
     line-height: 60px; /* Vertically center the text there */
     font-family: 'Nunito', sans-serif;
 }
+
 /*Backgrounds*/
-.bg-navbar
-{
+.bg-navbar {
     background: -webkit-linear-gradient(110deg, #e9a8a6 60%, #252152 60%);
     background: -o-linear-gradient(110deg, #e9a8a6 60%, #252152 60%);
     background: -moz-linear-gradient(110deg, #e9a8a6 60%, #252152 60%);
     background: linear-gradient(110deg, #e9a8a6 60%, #252152 60%);
 }
 
-.bg-footer
-{
+.bg-footer {
     background: -webkit-linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
     background: -o-linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
     background: -moz-linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
     background: linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
 }
 
-
-
-.upload-div
-{
+.upload-div {
     position: relative;
     background-color: lightgrey;
     width: 100%;
@@ -208,8 +179,7 @@ ul
     margin: 20px;
 }
 
-.inner-div-header
-{
+.inner-div-header {
     width: 100%;
     padding: 60px;
     text-align: center;
@@ -217,8 +187,7 @@ ul
     color: white;
 }
 
-.upload-form
-{
+.upload-form {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -228,17 +197,18 @@ ul
     height: 200px;
     border: 4px dashed #fff;
 }
-.upload-form p
-{
+
+.upload-form p {
     width: 100%;
     height: 100%;
     text-align: center;
     line-height: 170px;
     color: #ffffff;
     font-family: Arial;
+
 }
-.upload-form input
-{
+
+.upload-form input {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -247,8 +217,8 @@ ul
     outline: none;
     opacity: 0;
 }
-.upload-form button
-{
+
+.upload-form button {
     margin: 0;
     color: #fff;
     background: #16a085;
@@ -263,20 +233,17 @@ ul
     outline: none;
 }
 
-.divider
-{
+.divider {
     border-top: 5px solid #bbb;
     margin-top: 350px;
 }
 
-.item-description
-{
+.item-description {
     margin-left: 300px;
     width: 500px;
 }
 
-.submit-button
-{
+.submit-button {
     margin: 0;
     color: #fff;
     background: #16a085;
@@ -289,25 +256,23 @@ ul
     outline: none;
 }
 
-.button
-{
+.button {
     position: fixed;
     top: 5px;
     right: 10px;
 }
 
-.upload-form button:hover
-{
+.upload-form button:hover {
     background: #149174;
     color: #0C5645;
 }
 
-.upload-form button:active
-{
+.upload-form button:active {
     border: 0;
 }
-.SignInPage
-{
+
+/* sign in page background style */
+.SignInPage {
     background-image: url('../data/Image/SignIn.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -316,8 +281,7 @@ ul
     background-size: 80%, 50%;
 }
 
-.category
-{
+.category {
     position: fixed;
     border-color: black;
     top: 20px;
@@ -326,8 +290,7 @@ ul
     padding-left: 10px;
 }
 
-.myButton
-{
+.myButton {
     background-color: #44c767;
     border-radius: 28px;
     border: 1px solid #18ab29;
@@ -341,28 +304,24 @@ ul
     text-shadow: 0px 1px 0px #2f6627;
 }
 
-.myButton:hover
-{
+    .myButton:hover {
         background-color: #5cbf2a;
-}
+    }
 
-.myButton
-{
+.myButton {
     position: fixed;
     top: 7px;
     right: 80px;
 }
 
-.Pbutton
-{
-    position:fixed;
+.Pbutton {
+    position: fixed;
     top: 7px;
-    right:5px;
-
+    right: 5px;
 }
 
-.DetailItemPage
-{
+/* Style the item detail page backgroun image */
+.DetailItemPage {
     background-image: url('../data/Image/ItemDetail.PNG');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -371,29 +330,28 @@ ul
     background-size: 80%, 50%;
 }
 
-
-.EmailButton
-{
+/* email info button */
+.EmailButton {
     width: 180px;
     height: 40px;
     margin-left: 80%;
 }
 
-.Arrows
-{
+/* image button style */
+.Arrows {
     margin-top: 25%;
 }
 
-.LeftArrow
-{
+/* image left button style */
+.LeftArrow {
     width: 5%;
     height: 5%;
     margin-left: -2%;
     cursor: pointer;
 }
 
-.RightArrow
-{
+/* image right button style */
+.RightArrow {
     transform: rotate(180deg);
     width: 5%;
     height: 5%;
@@ -401,8 +359,7 @@ ul
     cursor: pointer;
 }
 
-form.example input[type=text]
-{
+form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
@@ -412,8 +369,7 @@ form.example input[type=text]
 }
 
 /* Style the submit button */
-form.example button
-{
+form.example button {
     float: left;
     width: 20%;
     padding: 10px;
@@ -425,22 +381,19 @@ form.example button
     cursor: pointer;
 }
 
-form.example button:hover
-{
+    form.example button:hover {
         background: #0b7dda;
-}
+    }
 
 /* Clear floats */
-form.example::after
-{
+form.example::after {
     content: "";
     clear: both;
     display: table;
 }
 
 /* Column container */
-.user-account-view
-{
+.user-account-view {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
@@ -449,8 +402,7 @@ form.example::after
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
-.left-bar
-{
+.left-bar {
     -ms-flex: 30%; /* IE10 */
     flex: 30%;
     background-color: #f1f1f1;
@@ -458,16 +410,14 @@ form.example::after
 }
 
 /* Fake image, just for this example */
-.fakeimg
-{
+.fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
 }
 
 /* Main column */
-.right-bar
-{
+.right-bar {
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
     background-color: white;
