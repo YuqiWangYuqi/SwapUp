@@ -7,8 +7,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace SwapUp.Pages
 {
+    /*
+     * portfolio page c# class
+     */
     public class PortfolioPageModel : PageModel
     {
+        //onget method
         public void OnGet()
         {
         }
