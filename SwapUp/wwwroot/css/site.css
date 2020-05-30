@@ -240,6 +240,14 @@ ul {
     right: 10px;
 }
 
+.upload-form button:hover {
+    background: #149174;
+    color: #0C5645;
+}
+
+.upload-form button:active {
+    border: 0;
+}
 .SignInPage {
     background-image: url('../data/Image/SignIn.PNG');
     background-repeat: no-repeat;
