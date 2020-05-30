@@ -184,6 +184,14 @@ ul {
     margin: 20px;
 }
 
+.inner-div-header {
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
 .button {
     position: fixed;
     top: 5px;
