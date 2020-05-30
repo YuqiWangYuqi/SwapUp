@@ -10,11 +10,3 @@
 
 
 
-
-.RightArrow {
-    transform: rotate(180deg);
-    width: 5%;
-    height: 5%;
-    margin-left: 26%;
-    cursor: pointer;
-}
