@@ -234,6 +234,13 @@ ul {
     outline: none;
 }
 
+
+.divider {
+    border-top: 5px solid #bbb;
+    margin-top: 350px;
+}
+
+
 .button {
     position: fixed;
     top: 5px;
