@@ -7,8 +7,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace SwapUp.Pages
 {
+    /*
+     * Searched Page C# class
+     */
     public class SearchedPageModel : PageModel
     {
+        //OnGet Method
         public void OnGet()
         {
 
