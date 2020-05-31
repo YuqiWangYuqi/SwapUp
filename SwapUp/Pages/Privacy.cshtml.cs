@@ -8,6 +8,9 @@ using Microsoft.Extensions.Logging;
 
 namespace SwapUp.Pages
 {
+    /*
+     * Privacy page c# class
+     */
     public class PrivacyModel : PageModel
     {
         private readonly ILogger<PrivacyModel> _logger;
@@ -17,6 +20,7 @@ namespace SwapUp.Pages
             _logger = logger;
         }
 
+        //OnGet method
         public void OnGet()
         {
         }
